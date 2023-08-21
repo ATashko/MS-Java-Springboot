@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient (name = "movie-service")
+@FeignClient (name = "movie-service/api/v1/movies")
 public interface IMovieFeignRepository {
 
     @GetMapping("/{genre}")
