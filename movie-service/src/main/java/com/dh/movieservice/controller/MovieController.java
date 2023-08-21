@@ -2,6 +2,7 @@ package com.dh.movieservice.controller;
 
 import com.dh.movieservice.model.Movie;
 import com.dh.movieservice.service.MovieService;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,6 +21,9 @@ public class MovieController {
     public MovieController(MovieService movieService) {
         this.movieService = movieService;
     }
+
+    @Value("${idRandom}")
+    private String port;
 
     @GetMapping("/{genre}")
     ResponseEntity<List<Movie>> getMovieByGenre(@PathVariable String genre) {
