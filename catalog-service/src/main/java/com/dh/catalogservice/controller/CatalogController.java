@@ -1,7 +1,7 @@
 package com.dh.catalogservice.controller;
 
 import com.dh.catalogservice.model.Movie;
-import com.dh.catalogservice.repository.ICatalogFeignRepository;
+import com.dh.catalogservice.repository.IMovieFeignRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,7 +14,7 @@ import java.util.List;
 public class CatalogController {
 
     @Autowired
-    private ICatalogFeignRepository iCatalogClient;
+    private IMovieFeignRepository iCatalogClient;
 
     @GetMapping("catalog/{genre}")
     public ResponseEntity<List<Movie>> getPlaylistByGenre (@PathVariable String genre) {

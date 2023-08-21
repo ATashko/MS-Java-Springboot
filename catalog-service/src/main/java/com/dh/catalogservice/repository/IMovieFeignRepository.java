@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient (name = "catalog-service")
-public interface ICatalogFeignRepository {
+@FeignClient (name = "movie-service")
+public interface IMovieFeignRepository {
 
     @GetMapping("/{genre}")
     ResponseEntity<List<Movie>> getMovieByGenre (@PathVariable String genre);
