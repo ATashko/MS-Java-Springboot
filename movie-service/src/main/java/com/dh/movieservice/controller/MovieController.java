@@ -22,9 +22,6 @@ public class MovieController {
         this.movieService = movieService;
     }
 
-    @Value("${idRandom}")
-    private String port;
-
     @GetMapping("/{genre}")
     ResponseEntity<List<Movie>> getMovieByGenre(@PathVariable String genre) {
         return ResponseEntity.ok().body(movieService.findByGenre(genre));
