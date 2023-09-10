@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5f22329-688a-4f36-9e93-b0d2738d7364" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/repository/ISerieFeignRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/controller/CatalogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serie-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/SerieServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/SerieServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serie-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serie-service/target/classes/com/example/serieservice/SerieServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/target/classes/com/example/serieservice/SerieServiceApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -75,7 +82,7 @@
       <recent name="com.dh.movieservice.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SerieServiceApplication">
+  <component name="RunManager" selected="Application.CatalogServiceApplication">
     <configuration name="CatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dh.catalogservice.CatalogServiceApplication" />
       <module name="catalog-service" />
@@ -141,6 +148,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="eureka-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="eureka-server" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.SerieServiceApplication" />
       <item itemvalue="Application.CatalogServiceApplication" />
@@ -150,8 +170,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SerieServiceApplication" />
         <item itemvalue="Application.CatalogServiceApplication" />
+        <item itemvalue="Application.SerieServiceApplication" />
         <item itemvalue="Application.MovieServiceApplication" />
         <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
