@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5f22329-688a-4f36-9e93-b0d2738d7364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/repository/ISerieFeignRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/dh/catalogservice/controller/CatalogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serie-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/SerieServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/java/com/example/serieservice/SerieServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serie-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serie-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serie-service/target/classes/com/example/serieservice/SerieServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/serie-service/target/classes/com/example/serieservice/SerieServiceApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
