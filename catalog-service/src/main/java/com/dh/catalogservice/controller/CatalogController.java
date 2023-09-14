@@ -27,8 +27,13 @@ public class CatalogController {
     }
 
     @GetMapping("catalog/{genre}")
-    public ResponseEntity<List<Movie>> getPlaylistByGenre (@PathVariable String genre) {
+    public List<Movie> getPlaylistByGenre (@PathVariable String genre) {
         return iCatalogClient.getMovieByGenre(genre);
+    }
+
+    @PostMapping("catalog/create-movie")
+    public ResponseEntity<Movie> saveMovie(@RequestBody Movie movie) {
+        return iCatalogClient.saveMovie(movie);
     }
 
     @GetMapping("catalog/series")
