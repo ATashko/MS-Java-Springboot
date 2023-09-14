@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface MovieService {
     List<Movie> getMovieByGenre ( String genre);
+
+    String saveMovie(Movie movie);
 }
